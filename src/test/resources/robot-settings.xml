@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+
+	<!-- This is URL to Selenium GRID server -->
+	<selenGridURL>%URL_TO_YOUR_SELENIUM_GRID%</selenGridURL>
+	
+	<!-- address that robot will search in emails and count number of letters from that address -->
+	<addressToSearch>%ADRESS_TO_SEARCH%</addressToSearch>
+	
+	<!-- Login and password to control -->
+	<robot-email>
+		<login>%YOUR_LOGIN%</login>
+		<password>%YOUR_PASSWORD%</password>
+	</robot-email>
+	
+	<!-- Email to make a report to and theme for report message -->
+	<report reportTo = "%EMAIL_TO_REPORT_TO%" reportTheme = "%Test message.%"></report>
+	
+</settings>
